@@ -1,8 +1,12 @@
 .header-color {
+  /* position: fixed; */
   background: #00467f; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #00467f, #a5cc82); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #00467f, #a5cc82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+/* .mdl-tabs__tab-bar {
+  position: fixed;
+} */
 
 .landing-grid {
   background: #00467f; /* fallback for old browsers */
