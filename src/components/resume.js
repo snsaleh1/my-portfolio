@@ -8,12 +8,12 @@ import Skills from './skills';
 class Resume extends Component{
     render(){
         return(
-            <div>
+            <div style={{paddingTop: '60px' }}>
                 <Grid>
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img 
-                                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                                src="https://i.imgur.com/wheDzKD.jpg?1"
                                 alt="avatar"
                                 style={{height: '200px'}}
                             />

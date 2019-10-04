@@ -9,7 +9,7 @@ class Landing extends Component{
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                        src="https://vignette.wikia.nocookie.net/godofwar/images/7/7a/Zeus_-_Ascension.jpg/revision/latest?cb=20130202161637"
+                        src="https://i.imgur.com/h7jbqrD.png?1"
                         alt="avatar"
                         className="avatar-img"
                         />

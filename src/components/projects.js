@@ -15,10 +15,10 @@ class Projects extends Component{
                 <div className="projects-grid">
                 {/* Project 1 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: 'black', height: '176px', background: 
-                    'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}} >Rep Your City</CardTitle>
-                    <CardText>
-                        Lorem Impsum   
+                    <CardTitle style={{color: 'white', height: '176px', background: 
+                    'url(https://i.imgur.com/HQVaEQM.png) center / cover'}} ></CardTitle>
+                    <CardText style={{fontWeight: 'bold'}}>
+                        REP YOUR CITY - JavaScript/HTML/CSS  
                     </CardText>
                     <CardActions border>
                         <Button colored>Preparation</Button>
@@ -37,9 +37,9 @@ class Projects extends Component{
                     {/* Project 2 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: 'black', height: '176px', background: 
-                    'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}} >Your Family App</CardTitle>
-                    <CardText>
-                        Lorem ipsom   
+                    'url(https://i.imgur.com/r3eun0n.png) center / cover'}} ></CardTitle>
+                    <CardText style={{fontWeight: 'bold'}}>
+                        FAMILY EVENTS - Express/Node.JS   
                     </CardText>
                     <CardActions border>
                         <Button colored>Preparation</Button>
@@ -59,7 +59,7 @@ class Projects extends Component{
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: 'black', height: '176px', background: 
                     'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}} >Weather Tracker</CardTitle>
-                    <CardText>
+                    <CardText style={{fontWeight: 'bold'}}>
                         Lorem ipsom   
                     </CardText>
                     <CardActions border>
@@ -75,7 +75,7 @@ class Projects extends Component{
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: 'black', height: '176px', background: 
                     'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}} >Recipe Finder</CardTitle>
-                    <CardText>
+                    <CardText style={{fontWeight: 'bold'}}>
                         Lorem Impsum   
                     </CardText>
                     <CardActions border>
@@ -94,10 +94,10 @@ class Projects extends Component{
                 <div className="projects-grid">
                     {/* Project 3 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: 'black', height: '176px', background: 
-                    'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}} >Eventus</CardTitle>
-                    <CardText>
-                        Lorem Impsum   
+                    <CardTitle style={{color: 'white', height: '176px', background: 
+                    'url(https://i.imgur.com/LpOpzGv.jpg) center / cover'}} ></CardTitle>
+                    <CardText style={{fontWeight: 'bold'}}>
+                        EVENTUS - Python/Django/API   
                     </CardText>
                     <CardActions border>
                         <Button colored>Preparation</Button>
@@ -112,11 +112,11 @@ class Projects extends Component{
             )
         } else if(this.state.activeTab === 4) {
             return(
-                <div className="projects-grid">
+                <div style={{paddingTop: '50px'}} className="projects-grid">
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: 'black', height: '176px', background: 
                     'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}} >Coming Soon</CardTitle>
-                    <CardText>
+                    <CardText style={{fontWeight: 'bold'}}>
                         Lorem Impsum   
                     </CardText>
                     <CardActions border>

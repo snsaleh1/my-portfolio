@@ -18,6 +18,7 @@ class App extends Component {
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to="/testimonials">Testimonials</Link>
             </Navigation>
         </Header>
         <Drawer title="Menu">
@@ -27,6 +28,7 @@ class App extends Component {
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to="/testimonials">Testimonials</Link>
             </Navigation>
         </Drawer>
         <Content>
