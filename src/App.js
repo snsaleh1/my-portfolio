@@ -8,7 +8,13 @@ import { Link } from 'react-router-dom';
 
 
 class App extends Component {
+    state = {
+        isLoggedIn: false
+    }
   render () {
+      const showS = this.state.isLoggedIn ? null : <Link to="/signuppage">Sign Up</Link>
+      const showL = this.state.isLoggedIn ? null : <Link to="/login">Log in</Link>
+      const showLo = this.state.isLoggedIn ? <button>Log Out</button> : null
     return (
 <div className="demo-big-content">
     <Layout>
@@ -19,6 +25,9 @@ class App extends Component {
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
                 <Link to="/testimonials">Testimonials</Link>
+                {showS}
+                {showL}
+                {showLo}
             </Navigation>
         </Header>
         <Drawer title="Menu">

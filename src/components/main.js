@@ -7,6 +7,8 @@ import Projects from './projects';
 import Resume from './resume';
 import Contact from './contact';
 import Testimonials from './testimonials';
+import Signuppage from './signuppage';
+import Login from './login';
 
 const Main = () => 
     <Switch>
@@ -16,6 +18,8 @@ const Main = () =>
         <Route path="/resume" component={Resume} />
         <Route path="/contact" component={Contact} />
         <Route path="/testimonials" component={Testimonials} />
+        <Route path="/signuppage" component={Signuppage} />
+        <Route path="/login" component={Login} />
     </Switch>
 
 
