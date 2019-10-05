@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema({
   name: String,
   email: {type: String, required: true, lowercase: true, unique: true},
   password: String,
-testimonial:[testimonialSchema]
+// testimonial:[testimonialSchema]
 }, {
   timestamps: true
 });
