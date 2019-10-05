@@ -132,3 +132,23 @@
   color: white;
   padding: 2em;
 }
+
+.SignupPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 28px;
+}
+
+/* .form-control {
+  min-height: 25px;
+  min-width: 150px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.btn-default {
+  min-height: 20px;
+  min-width: 50px;
+} */

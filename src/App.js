@@ -5,16 +5,29 @@ import 'react-mdl/extra/material.css'; // this must be used with crete-react-app
 import 'react-mdl/extra/material.js'; // this must be used with crete-react-app versions 0.4.+
 import Main from './components/main';
 import { Link } from 'react-router-dom';
+import userService from './utils/userService';
 
 
 class App extends Component {
     state = {
-        isLoggedIn: false
+        isLoggedIn: false,
+        user: userService.getUser(),
+    }
+    handleSignupOrLogin = () => {
+        this.setState({
+            user: userService.getUser
+        })
+    }
+    handleLogout = () => {
+        userService.logout()
+        this.setState({
+            user: null
+        })
     }
   render () {
-      const showS = this.state.isLoggedIn ? null : <Link to="/signuppage">Sign Up</Link>
-      const showL = this.state.isLoggedIn ? null : <Link to="/login">Log in</Link>
-      const showLo = this.state.isLoggedIn ? <button>Log Out</button> : null
+      const showS = this.state.user ? null : <Link to="/signuppage">Sign Up</Link>
+      const showL = this.state.user ? null : <Link to="/login">Log in</Link>
+      const showLo = this.state.user ? <button>Log Out</button> : null
     return (
 <div className="demo-big-content">
     <Layout>
@@ -30,7 +43,7 @@ class App extends Component {
                 {showLo}
             </Navigation>
         </Header>
-        <Drawer title="Menu">
+        <Drawer style={{position: 'fixed'}} title="Menu">
             <Navigation>
                 <Link style={{textDecoration: 'none', color: 'black'}} to="/">Caleb Home</Link>
                 <Link to="/aboutme">About</Link>
@@ -42,7 +55,9 @@ class App extends Component {
         </Drawer>
         <Content>
             <div className="page-content" />
-            <Main />
+            <Main 
+                handleSignupOrLogin = {this.handleSignupOrLogin}           
+                />
         </Content>
     </Layout>
 </div>

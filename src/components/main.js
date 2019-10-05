@@ -7,10 +7,10 @@ import Projects from './projects';
 import Resume from './resume';
 import Contact from './contact';
 import Testimonials from './testimonials';
-import Signuppage from './signuppage';
+import SignupPage from './signuppage';
 import Login from './login';
 
-const Main = () => 
+const Main = (props) => 
     <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route path="/aboutme" component={AboutMe} />
@@ -18,7 +18,11 @@ const Main = () =>
         <Route path="/resume" component={Resume} />
         <Route path="/contact" component={Contact} />
         <Route path="/testimonials" component={Testimonials} />
-        <Route path="/signuppage" component={Signuppage} />
+        <Route path="/signuppage" render={() => (
+            <SignupPage 
+                handleSignupOrLogin = {props.handleSignupOrLogin}
+            />
+        )} />
         <Route path="/login" component={Login} />
     </Switch>
 

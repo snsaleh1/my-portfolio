@@ -1,8 +1,10 @@
-const jwt = require('jsonwebtoken');
-const SECRET = process.env.SECRET;
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true });
+mongoose.connect(process.env.DATABASE_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true
+  });
 
 const db = mongoose.connection;
 
