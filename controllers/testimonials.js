@@ -1,7 +1,8 @@
-var Testimonial = require('../models/testimonial');
+var Testimonial = require('../models/user');
 
 module.exports = {
-  create
+  create,
+  tesBoard
 };
 
 async function create(req, res) {

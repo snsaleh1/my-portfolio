@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const testimonialsCtrl = require('../../controllers/testimonials');
 
-router.get('/', testimonialsCtrl.test);
+router.get('/', testimonialsCtrl.tesBoard);
 
 /*---------- Protected Routes ----------*/
 // Process the token for only the routes below

@@ -19,7 +19,7 @@ class Resume extends Component{
                             />
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Caleb Saleh</h2>
-                        <h2 style={{color: 'gray'}}>Software Developer</h2>
+                        <h2 style={{color: 'white'}}>Software Developer</h2>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
                         <p>LOREM IPSOM...</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
@@ -54,21 +54,23 @@ class Resume extends Component{
                         <h2>Experience</h2>
 
                         <Experience 
+                            startYear={2018}
+                            endYear={2019}
+                            jobName="The Saleh Group"
+                            jobTitle="Business Opportunities Specialist"
+                            jobDescription="- Develop persuasive techniques to acquire 30% more new sellers per month
+                            - Mediate contract negotiations acting as objective liaison for both parties
+                            - Manage, coach, train, and develop a team of brokers increasing to 4-man teams - Provide and prepare detailed appraisal reports to share with clients"
+                        />
+                        <Experience 
                             startYear={2015}
                             endYear={2018}
-                            jobName="University of California at Los Angeles - Instructional Technologist"
+                            jobName="University of California at Los Angeles"
+                            jobTitle="Instructional Technologist"
                             jobDescription="- Trained working professionals online course instruction including deep dive navigation of Learning Management Systems increasing instructor retention rate by 40%
                             - Developed and organized graduate level courses using advanced media production and pedagogical design models
                             - Created and led training workshop series, supporting documentation outlining higher standards of academic content
                             - Researched new technological methods of course instruction involving simulations, labs, and virtual reality applications"
-                        />
-                        <Experience 
-                            startYear={2018}
-                            endYear={2019}
-                            jobName="The Saleh Group - Business Opportunities Specialist"
-                            jobDescription="- Develop persuasive techniques to acquire 30% more new sellers per month
-                            - Mediate contract negotiations acting as objective liaison for both parties
-                            - Manage, coach, train, and develop a team of brokers increasing to 4-man teams - Provide and prepare detailed appraisal reports to share with clients"
                         />
                         <hr style={{borderTop: '3px solid #e22947'}} />
 
@@ -76,11 +78,11 @@ class Resume extends Component{
 
                         <Skills 
                             skill="JavaScript"
-                            progress={90}
+                            progress={85}
                         />
                         <Skills 
                             skill="HTML/CSS"
-                            progress={98}
+                            progress={90}
                         />
                         <Skills 
                             skill="Node.JS"
@@ -92,7 +94,7 @@ class Resume extends Component{
                         />
                         <Skills 
                             skill="SQL"
-                            progress={75}
+                            progress={70}
                         />
                         <Skills 
                             skill="Project Management"
@@ -100,7 +102,7 @@ class Resume extends Component{
                         />
                         <Skills 
                             skill="Conflict Resolution"
-                            progress={99}
+                            progress={95}
                         />
                         <Skills 
                             skill="Strategic Planning"
@@ -108,7 +110,7 @@ class Resume extends Component{
                         />
                         <Skills 
                             skill="Cooking"
-                            progress={75}
+                            progress={79}
                         />
 
                     </Cell>
