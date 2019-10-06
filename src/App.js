@@ -6,6 +6,7 @@ import 'react-mdl/extra/material.js'; // this must be used with crete-react-app 
 import Main from './components/main';
 import { Link } from 'react-router-dom';
 import userService from './utils/userService';
+// import tokenService from './utils/tokenService';
 
 
 
@@ -28,7 +29,7 @@ class App extends Component {
   render () {
       const showS = this.state.user ? null : <Link to="/signuppage">Sign Up</Link>
       const showL = this.state.user ? null : <Link to="/login">Log in</Link>
-      const showLo = this.state.user ? <button>Log Out</button> : null
+      const showLo = this.state.user ? <Link to='' onClick={this.handleLogout} >Logout</Link> : null
     return (
 <div className="demo-big-content">
     <Layout>
@@ -57,7 +58,7 @@ class App extends Component {
         <Content>
             <div className="page-content" />
             <Main 
-                handleSignupOrLogin = {this.handleSignupOrLogin}           
+                handleSignupOrLogin = {this.handleSignupOrLogin}         
                 />
         </Content>
     </Layout>
