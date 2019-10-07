@@ -32,7 +32,7 @@ class LoginPage extends Component {
 
   render() {
     return (
-      <div className="LoginPage">
+        <div className="LoginPage">
         <header className="header-footer">Log In</header>
         <form className="form-horizontal" onSubmit={this.handleSubmit} >
           <div className="form-group">

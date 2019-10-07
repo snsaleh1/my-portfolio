@@ -2,6 +2,8 @@ var Testimonial = require('../models/user');
 
 module.exports = {
   create,
+  perTes,
+  proTes,
   tesBoard
 };
 

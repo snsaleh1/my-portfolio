@@ -24,7 +24,12 @@ const Main = (props) =>
                 handleSignupOrLogin = {props.handleSignupOrLogin}
             />
         )} />
-        <Route path="/login" component={Login} />
+        <Route path="/login" render={({history}) => (
+            <Login
+                history={history}
+                handleSignupOrLogin = {props.handleSignupOrLogin}
+            />
+        )} />
     </Switch>
 
 

@@ -152,3 +152,10 @@
   min-height: 20px;
   min-width: 50px;
 } */
+
+.LoginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

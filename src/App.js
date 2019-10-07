@@ -8,8 +8,6 @@ import { Link } from 'react-router-dom';
 import userService from './utils/userService';
 // import tokenService from './utils/tokenService';
 
-
-
 class App extends Component {
     state = {
         isLoggedIn: false,
@@ -17,7 +15,7 @@ class App extends Component {
     }
     handleSignupOrLogin = () => {
         this.setState({
-            user: userService.getUser
+            user: userService.getUser()
         })
     }
     handleLogout = () => {
@@ -53,6 +51,9 @@ class App extends Component {
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
                 <Link to="/testimonials">Testimonials</Link>
+                {showS}
+                {showL}
+                {showLo}
             </Navigation>
         </Drawer>
         <Content>
