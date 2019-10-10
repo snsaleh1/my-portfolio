@@ -2,16 +2,15 @@ var Testimonial = require('../models/user');
 
 module.exports = {
   create,
-  perTes,
-  proTes,
   tesBoard
 };
 
 async function create(req, res) {
-  console.log('user: ', req.user)
+  console.log('user: ', req.body.user)
   try {
-    await Testimonial.create(req.body);
-    tesBoard(req, res);
+    const newTes = await Testimonial.create(req.body)
+    console.log(req.body)
+    res.status(201).json(newTes)
   } catch (err) {
     res.json({err});
   }

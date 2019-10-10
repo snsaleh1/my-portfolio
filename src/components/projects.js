@@ -21,7 +21,6 @@ class Projects extends Component{
                         REP YOUR CITY - JavaScript/HTML/CSS  
                     </CardText>
                     <CardActions border>
-                        <Button colored>Preparation</Button>
                         <Button colored>Code</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -42,7 +41,6 @@ class Projects extends Component{
                         FAMILY EVENTS - Express/Node.JS   
                     </CardText>
                     <CardActions border>
-                        <Button colored>Preparation</Button>
                         <Button colored>Code</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -58,12 +56,11 @@ class Projects extends Component{
                     {/* Project 2 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: 'black', height: '176px', background: 
-                    'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}} >Weather Tracker</CardTitle>
+                    'url(https://i.imgur.com/abzkLR6.png) center / cover'}} ></CardTitle>
                     <CardText style={{fontWeight: 'bold'}}>
-                        Lorem ipsom   
+                        Weather Tracker - REACT/JS   
                     </CardText>
                     <CardActions border>
-                        <Button colored>Preparation</Button>
                         <Button colored>Code</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -74,12 +71,11 @@ class Projects extends Component{
                     {/* Project 3 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: 'black', height: '176px', background: 
-                    'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}} >Recipe Finder</CardTitle>
+                    'url(https://i.imgur.com/gqLwdjY.png) center / cover'}} ></CardTitle>
                     <CardText style={{fontWeight: 'bold'}}>
-                        Lorem Impsum   
+                        Recipe Finder - REACT/JS
                     </CardText>
                     <CardActions border>
-                        <Button colored>Preparation</Button>
                         <Button colored>Code</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
@@ -100,7 +96,6 @@ class Projects extends Component{
                         EVENTUS - Python/Django/API   
                     </CardText>
                     <CardActions border>
-                        <Button colored>Preparation</Button>
                         <Button colored>Code</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>

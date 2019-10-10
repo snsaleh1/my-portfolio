@@ -4,19 +4,6 @@
   background: -webkit-linear-gradient(to left, #00467f, #a5cc82); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #00467f, #a5cc82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-/* .mdl-tabs__tab-bar {
-  position: fixed;
-  padding-top: 60px;
-} */
-
-/* .mdl-tabs__tab {
-  color: white;
-  position: fixed;
-} */
-
-/* .mdl-card {
-  border-radius: 80%;
-} */
 
 .mdl-layout__content {
   background: #00467f; /* fallback for old browsers */
@@ -158,4 +145,24 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  font-size: 24px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tesTitle {
+  text-align: center;
+}
+
+.form-group {
+  height: 30px;
+  width: 80px;
+}
+
+.header-footer {
+  display: flex;
+  flex-direction: column;
 }

@@ -6,9 +6,18 @@ const SALT_ROUNDS = 6;
 
 const testimonialSchema = new Schema({
     name: String,
-    acqLocation: String,
-    yearsKnown: Number,
-    test: String
+    locAcq: String,
+    yearsAcq: {
+        type: String,
+        enum: ["1+", "2+", "3+", "4+", "5+", "6+", "7+", "8+", "9+", "10+", "15+"]
+    },
+    tesType: {
+        type: String,
+        enum: ["Personal", "Professional"]
+    },
+    testimonial: {
+        type: String
+    }
   }, {
     timestamps: true
   });
@@ -17,7 +26,7 @@ const userSchema = new mongoose.Schema({
   name: String,
   email: {type: String, required: true, lowercase: true, unique: true},
   password: String,
-// testimonial:[testimonialSchema]
+  testimonial:[testimonialSchema]
 }, {
   timestamps: true
 });

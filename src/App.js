@@ -59,7 +59,8 @@ class App extends Component {
         <Content>
             <div className="page-content" />
             <Main 
-                handleSignupOrLogin = {this.handleSignupOrLogin}         
+                handleSignupOrLogin = {this.handleSignupOrLogin}
+                user={this.state.user}   
                 />
         </Content>
     </Layout>
