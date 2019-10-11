@@ -86,8 +86,6 @@ class Projects extends Component{
                     <CardActions border>
                     <a href ="https://github.com/snsaleh1/EventUs">CODE____________________</a>
                     <a href ="https://unit3eventus.herokuapp.com/">LIVE DEMO</a>
-                        <Button colored>Code</Button>
-                        <Button colored>Live Demo</Button>
                     </CardActions>
                 </Card>
                 </div>
