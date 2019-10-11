@@ -19,6 +19,12 @@
 - MERN STACK
 - COUSIN CHRIS AND FAM
 
+## User Stories
+- AAU I want to log into this badass portfolio
+- AAU I want to be able to post a testimonial about the man himself
+- AAU I want to be able to update and delete these posts as well as view everyone else's testimonials about our favorite man.
+- AAU I want to learn about the coolest guy in school and decide how he'll fit into my company.
+
 ## Stretch Goals:
 - Spotify API for specific events
 - SMS Messaging Form for Contacts page
