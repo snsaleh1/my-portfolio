@@ -6,7 +6,7 @@ import AboutMe from './aboutme';
 import Projects from './projects';
 import Resume from './resume';
 import Contact from './contact';
-import TesBoard from './tesBoard';
+import TesBoard from './testimonialBucket/tesBoard';
 import SignupPage from './signuppage';
 import Login from './login';
 
