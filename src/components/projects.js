@@ -55,8 +55,8 @@ class Projects extends Component{
                         Weather Tracker - REACT/JS   
                     </CardText>
                     <CardActions border>
-                        <Button colored>Code</Button>
-                        <Button colored>Live Demo</Button>
+                    <a href ="https://github.com/snsaleh1/weather-app">CODE____________________</a>
+                    <a href ="https://github.com/snsaleh1/weather-app">LIVE DEMO</a>
                     </CardActions>
                 </Card>
                     {/* Project 3 */}
@@ -67,8 +67,8 @@ class Projects extends Component{
                         Recipe Finder - REACT/JS
                     </CardText>
                     <CardActions border>
-                        <Button colored>Code</Button>
-                        <Button colored>Live Demo</Button>
+                    <a href ="https://github.com/snsaleh1/recipe-app">CODE____________________</a>
+                    <a href ="https://github.com/snsaleh1/recipe-app">LIVE DEMO</a>
                     </CardActions>
                 </Card>
                 </div>
@@ -84,6 +84,8 @@ class Projects extends Component{
                         EVENTUS - Python/Django/API   
                     </CardText>
                     <CardActions border>
+                    <a href ="https://github.com/snsaleh1/EventUs">CODE____________________</a>
+                    <a href ="https://unit3eventus.herokuapp.com/">LIVE DEMO</a>
                         <Button colored>Code</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
