@@ -21,16 +21,16 @@ class Resume extends Component{
                         <h2 style={{paddingTop: '2em'}}>Caleb Saleh</h2>
                         <h2 style={{color: 'white'}}>Software Developer</h2>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                        <p>LOREM IPSOM...</p>
+                        <p style={{fontWeight: 'bold'}}>The man of your dreams and the love of your life.</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                        <h5>Address</h5>
-                        <p>Hacker Way Menlo Park, 94025</p>
+                        <h5>Home City</h5>
+                        <p style={{fontWeight: 'bold'}}>Austin, TX</p>
                         <h5>Phone</h5>
-                        <p>(614) 405-4257</p>
+                        <p style={{fontWeight: 'bold'}}>Insert Google Voice # Here</p>
                         <h5>Email</h5>
-                        <p>Calebsaleh1@gmail.com</p>
-                        <h5>Web</h5>
-                        <p>www.HouseofMediciEnterprises.com</p>
+                        <p style={{fontWeight: 'bold'}}>Calebsaleh1@gmail.com</p>
+                        <h5>Visit Us At: </h5>
+                        <p style={{fontWeight: 'bold'}}>www.HouseofMediciEnterprises.com</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
@@ -38,16 +38,16 @@ class Resume extends Component{
 
 
                         <Education 
-                            startYear={2007}
-                            endYear={2011}
-                            schoolName="The Ohio State University"
-                            schoolDescription="Lorem Ipsom"
-                        />
-                        <Education 
                             startYear={2011}
                             endYear={2013}
                             schoolName="The Chicago School of Professional Psychology"
-                            schoolDescription="Lorem Ipsom"
+                            schoolDescription="Masters in Clinical Psychology, Specialization in Marriage and Family Therapy, Graduated Magna Cum Laude"
+                        />
+                        <Education 
+                            startYear={2007}
+                            endYear={2011}
+                            schoolName="The Ohio State University"
+                            schoolDescription="Bachelors in Sociology and Human Development, Graduated Cum Laude"
                         />
                         <hr style={{borderTop: '3px solid #e22947'}} />
 

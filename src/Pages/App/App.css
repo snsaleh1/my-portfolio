@@ -72,6 +72,18 @@
 .projects-grid {
   display: flex;
 }
+.nextChap-projects-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.nextChap {
+  text-align: center;
+
+}
+.nextChapCard {
+  display: flex;
+}
 
 .contact-body {
   margin: auto;

@@ -21,12 +21,9 @@ class Projects extends Component{
                         REP YOUR CITY - JavaScript/HTML/CSS  
                     </CardText>
                     <CardActions border>
-                        <Button colored>Code</Button>
-                        <Button colored>Live Demo</Button>
+                    <a href ="https://github.com/snsaleh1/GAProject1">CODE____________________</a>
+                    <a href ="http://rep-your-city-ga19.surge.sh/">LIVE DEMO</a>
                     </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
                 </Card>
                 </div>
             )
@@ -41,12 +38,9 @@ class Projects extends Component{
                         FAMILY EVENTS - Express/Node.JS   
                     </CardText>
                     <CardActions border>
-                        <Button colored>Code</Button>
-                        <Button colored>Live Demo</Button>
+                    <a href ="https://github.com/snsaleh1/project2">CODE____________________</a>
+                    <a href ="https://github.com/snsaleh1/project2">LIVE DEMO</a>
                     </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
                 </Card>
                 </div>
             )
@@ -64,9 +58,6 @@ class Projects extends Component{
                         <Button colored>Code</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
                 </Card>
                     {/* Project 3 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -79,9 +70,6 @@ class Projects extends Component{
                         <Button colored>Code</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
                 </Card>
                 </div>
             )
@@ -99,29 +87,6 @@ class Projects extends Component{
                         <Button colored>Code</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-                </div>
-            )
-        } else if(this.state.activeTab === 4) {
-            return(
-                <div style={{paddingTop: '50px'}} className="projects-grid">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: 'black', height: '176px', background: 
-                    'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}} >Coming Soon</CardTitle>
-                    <CardText style={{fontWeight: 'bold'}}>
-                        Lorem Impsum   
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>Preparation</Button>
-                        <Button colored>Code</Button>
-                        <Button colored>Live Demo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
                 </Card>
                 </div>
             )
@@ -136,7 +101,6 @@ class Projects extends Component{
                     <Tab>"Express Node.js"</Tab>
                     <Tab>"React"</Tab>
                     <Tab>"Python / Django"</Tab>
-                    <Tab>"HoM.e"</Tab>
                 </Tabs>
 
                     <Grid>
