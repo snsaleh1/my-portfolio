@@ -49,7 +49,7 @@ class Aboutme extends Component{
                     <CardTitle style={{color: 'black', height: '250px', background: 
                     'url(https://i.imgur.com/VWZNIOl.jpg) center / cover'}} ></CardTitle>
                     <CardText style={{fontWeight: 'bold'}}>
-                    ALL WORK NO PLAY - Next Caleb decided he wanted to work at the very source of many PTSD instances overseas and made it to Officer Candidate School in Quantico VA. Although was never commissioned as an Officer of the Marine Corp, it was an invaluable learning experience dealing with leadership, physical/mental strength, and discipline.  
+                    ALL WORK NO PLAY - To be present at the very source of many PTSD instances overseas, Caleb made it to Quantico VA for Winter OCS 218. Although was never commissioned as an Officer of the Marine Corp, it was an invaluable learning experience dealing with leadership, physical/mental strength, and discipline.  
                     </CardText>
                 </Card>
                 </div>
