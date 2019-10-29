@@ -3,13 +3,7 @@
 ## Show them the real you!
 
 ## Introduction:
-### Resumes need to be more personal so that you can not only show your skills but who you are as well.
-
-![Wireframe](https://i.imgur.com/ifb4z2c.png)
-
-[Pitch Deck](https://docs.google.com/presentation/d/1OT_RDEHj0WkTT491Q2uGVndk18ljhklRSpTLNGARV9c/edit?usp=sharing)
-
-[Trello Board](https://trello.com/b/7x3lbQZp/unit-3-project-sei)
+### Resumes need to be more personal so that you can not only show your skills but who you are. Eventually this will eliminate any question about whether or not a candidate is a culture fit.
 
 # Screenshots
 
