@@ -27,24 +27,25 @@ class Projects extends Component{
                 </Card>
                 </div>
             )
-        } else if(this.state.activeTab === 1) {
-            return(
-                <div className="projects-grid">
-                    {/* Project 2 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: 'black', height: '176px', background: 
-                    'url(https://i.imgur.com/r3eun0n.png) center / cover'}} ></CardTitle>
-                    <CardText style={{fontWeight: 'bold'}}>
-                        FAMILY EVENTS - Express/Node.JS   
-                    </CardText>
-                    <CardActions border>
-                    <a href ="https://github.com/snsaleh1/project2">CODE____________________</a>
-                    <a href ="https://github.com/snsaleh1/project2">LIVE DEMO</a>
-                    </CardActions>
-                </Card>
-                </div>
-            )
-        } else if(this.state.activeTab === 2) {
+        } //else if(this.state.activeTab === 1) {
+        //     return(
+        //         <div className="projects-grid">
+        //             {/* Project 2 */}
+        //         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        //             <CardTitle style={{color: 'black', height: '176px', background: 
+        //             'url(https://i.imgur.com/r3eun0n.png) center / cover'}} ></CardTitle>
+        //             <CardText style={{fontWeight: 'bold'}}>
+        //                 FAMILY EVENTS - Express/Node.JS   
+        //             </CardText>
+        //             <CardActions border>
+        //             <a href ="https://github.com/snsaleh1/project2">CODE____________________</a>
+        //             <a href ="https://github.com/snsaleh1/project2">LIVE DEMO</a>
+        //             </CardActions>
+        //         </Card>
+        //         </div>
+        //     )
+        // } 
+            else if(this.state.activeTab === 1) {
             return(
                 <div className="projects-grid">
                     {/* Project 2 */}
@@ -73,7 +74,7 @@ class Projects extends Component{
                 </Card>
                 </div>
             )
-        } else if(this.state.activeTab === 3) {
+        } else if(this.state.activeTab === 2) {
             return(
                 <div className="projects-grid">
                     {/* Project 3 */}
@@ -98,7 +99,6 @@ class Projects extends Component{
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
                     <Tab>"JavaScript"</Tab>
-                    <Tab>"Express Node.js"</Tab>
                     <Tab>"React"</Tab>
                     <Tab>"Python / Django"</Tab>
                 </Tabs>

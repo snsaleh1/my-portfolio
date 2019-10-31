@@ -15,28 +15,31 @@ class Resume extends Component{
                             <img 
                                 src="https://i.imgur.com/wheDzKD.jpg?2"
                                 alt="avatar"
-                                style={{height: '200px'}}
+                                style={{height: '300px', width: '325px'}}
                             />
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Caleb Saleh</h2>
                         <h2 style={{color: 'white'}}>Software Developer</h2>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                        <p style={{fontWeight: 'bold'}}>The man of your dreams and the love of your life.</p>
+                        <p style={{fontWeight: 'bold'}}>Front End Engineering and Database Management</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                        <h5>Home City</h5>
+                        <h5>Current City</h5>
                         <p style={{fontWeight: 'bold'}}>Austin, TX</p>
-                        <h5>Phone</h5>
-                        <p style={{fontWeight: 'bold'}}>Insert Google Voice # Here</p>
                         <h5>Email</h5>
                         <p style={{fontWeight: 'bold'}}>Calebsaleh1@gmail.com</p>
-                        <h5>Visit Us At: </h5>
-                        <p style={{fontWeight: 'bold'}}>www.HouseofMediciEnterprises.com</p>
+                        {/* <h5>Visit Us At: </h5>
+                        <p style={{fontWeight: 'bold'}}>www.HouseofMediciEnterprises.com</p> */}
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>
 
-
+                        <Education 
+                            startYear={2019}
+                            endYear={2019}
+                            schoolName="General Assembly"
+                            schoolDescription="Software Engineering Immersive Program - Trains the hungriest minds for the ever growing tech industry. Subjects covered include HTML, CSS, JavaScript, Express, Node.js, MongoDB, Django, Python, React, Algorithms, and a collection of other data science topics."
+                        />
                         <Education 
                             startYear={2011}
                             endYear={2013}
@@ -86,15 +89,15 @@ class Resume extends Component{
                         />
                         <Skills 
                             skill="Node.JS"
-                            progress={65}
+                            progress={85}
                         />
                         <Skills 
                             skill="React"
-                            progress={75}
+                            progress={92}
                         />
                         <Skills 
                             skill="SQL"
-                            progress={70}
+                            progress={80}
                         />
                         <Skills 
                             skill="Project Management"
@@ -110,7 +113,7 @@ class Resume extends Component{
                         />
                         <Skills 
                             skill="Cooking"
-                            progress={79}
+                            progress={85}
                         />
 
                     </Cell>

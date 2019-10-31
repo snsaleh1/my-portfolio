@@ -6,7 +6,7 @@ import AboutMe from './aboutme';
 import Projects from './projects';
 import Resume from './resume';
 import Contact from './contact';
-import TesBoard from './testimonialBucket/tesBoard';
+// import TesBoard from './testimonialBucket/tesBoard';
 import SignupPage from './signuppage';
 import Login from './login';
 
@@ -17,11 +17,11 @@ const Main = (props) =>
         <Route path="/projects" component={Projects} />
         <Route path="/resume" component={Resume} />
         <Route path="/contact" component={Contact} />
-        <Route path="/testimonials" render={() => (
+        {/* <Route path="/testimonials" render={() => (
             <TesBoard 
             user = {props.user}
             />
-        )} />
+        )} /> */}
         <Route path="/signuppage" render={({history}) => (
             <SignupPage 
                 history={history}

@@ -37,7 +37,7 @@ class App extends Component {
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
-                <a href ="http://localhost:4000">Testimonials</a>
+                {/* <a href ="http://localhost:4000">Testimonials</a> */}
                 {showS}
                 {showL}
                 {showLo}
@@ -50,7 +50,7 @@ class App extends Component {
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
-                <a href ="https://port-testimonials.herokuapp.com">Testimonials</a>
+                {/* <a href ="https://port-testimonials.herokuapp.com">Testimonials</a> */}
                 {showS}
                 {showL}
                 {showLo}
