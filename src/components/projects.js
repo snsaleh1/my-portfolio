@@ -56,7 +56,7 @@ class Projects extends Component{
                     </CardText>
                     <CardActions border>
                     <a href ="https://github.com/snsaleh1/weather-app">CODE____________________</a>
-                    <a href ="https://github.com/snsaleh1/weather-app">LIVE DEMO</a>
+                    <a href ="https://caleb-city-weather.herokuapp.com/">LIVE DEMO</a>
                     </CardActions>
                 </Card>
                     {/* Project 3 */}
@@ -68,7 +68,7 @@ class Projects extends Component{
                     </CardText>
                     <CardActions border>
                     <a href ="https://github.com/snsaleh1/recipe-app">CODE____________________</a>
-                    <a href ="https://github.com/snsaleh1/recipe-app">LIVE DEMO</a>
+                    <a href ="http://caleb-react-recipe.herokuapp.com/">LIVE DEMO</a>
                     </CardActions>
                 </Card>
                 </div>
