@@ -10,12 +10,12 @@ class Contact extends Component{
                     <Cell col={6}>
                         <h2>Caleb Saleh</h2>
                         <img 
-                            src="http://i.imgur.com/2XqgzYd.jpg"
+                            src="https://i.imgur.com/c3OPaVJ.png"
                             alt="avatar"
                             style={{height: '250px'}}
                         />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                            I'm always looking for an excuse to try a new restaurant here in Austin so if you have any questions about programming, would like to bounce ideas, or just catch up, please feel free to give me a shout and maybe we can create the greatest piece of tech our generation will ever know.</p>
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em', fontSize: '16px'}}>
+                            I'm always looking for an excuse to try a new restaurant here in Austin so if you have any questions about programming, would like to bounce ideas, or just catch up, please feel free to contact me anytime.</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
@@ -23,22 +23,28 @@ class Contact extends Component{
 
                         <div className="contact-list">
                         <List>
-                            <ListItem>
+                            {/* <ListItem>
                                 <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true" />
                                  Cell: 614-405-4257 
                                 </ListItemContent>
-                            </ListItem>
+                            </ListItem> */}
                             <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '24px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-envelope" aria-hidden="true" />
                                  Calebsaleh1@gmail.com 
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                    <i className="fa fa-skype" aria-hidden="true" />
-                                 Skype ID: Snsaleh1 
+                                <ListItemContent style={{fontSize: '24px', fontFamily: 'Anton'}}>
+                                    <i className="fa fa-video-camera" aria-hidden="true" />
+                                 https://zoom.us/j/5474927184 
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent style={{fontSize: '24px', fontFamily: 'Anton'}}>
+                                    <i className="fa fa-video-camera" aria-hidden="true" />
+                                 Zoom ID: 547-492-7184 
                                 </ListItemContent>
                             </ListItem>
                             </List>

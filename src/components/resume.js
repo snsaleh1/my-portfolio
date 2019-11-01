@@ -38,7 +38,7 @@ class Resume extends Component{
                             startYear={2019}
                             endYear={2019}
                             schoolName="General Assembly"
-                            schoolDescription="Software Engineering Immersive Program - Trains the hungriest minds for the ever growing tech industry. Subjects covered include HTML, CSS, JavaScript, Express, Node.js, MongoDB, Django, Python, React, Algorithms, and a collection of other data science topics."
+                            schoolDescription="Software Engineering Immersive Program - Subjects covered include HTML, CSS, JavaScript, Express, Node.js, MongoDB, Django, Python, React, Algorithms, and a collection of other data science topics."
                         />
                         <Education 
                             startYear={2011}
@@ -61,7 +61,7 @@ class Resume extends Component{
                             endYear={2019}
                             jobName="The Saleh Group"
                             jobTitle="Business Opportunities Specialist"
-                            jobDescription="- Develop persuasive techniques to acquire 30% more new sellers per month
+                            jobDescription="- Develop talking point script to acquire 30% more new sellers per month through email and phone communications.
                             - Mediate contract negotiations acting as objective liaison for both parties
                             - Manage, coach, train, and develop a team of brokers increasing to 4-man teams - Provide and prepare detailed appraisal reports to share with clients"
                         />
@@ -97,7 +97,7 @@ class Resume extends Component{
                         />
                         <Skills 
                             skill="SQL"
-                            progress={80}
+                            progress={85}
                         />
                         <Skills 
                             skill="Project Management"
