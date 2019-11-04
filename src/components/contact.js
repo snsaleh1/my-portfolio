@@ -6,7 +6,7 @@ class Contact extends Component{
     render(){
         return(
             <div className="contact-body">
-                <Grid className="contact-grid">
+                <Grid style={{borderRadius: '10%'}} className="contact-grid">
                     <Cell col={6}>
                         <h2>Caleb Saleh</h2>
                         <img 
